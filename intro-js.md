@@ -127,3 +127,27 @@ else{
 Note: statement is the condition to make our decision
 
 ```
+# Comparison Operators
+```javascript
+Comparison operators compare the value on the left with the value on the right.
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is NOT equal to: !==
+```
+# Logical Operators
+```javascript
+the and operator (&&)
+the or operator (||)
+the not operator (!)
+When we use the && operator, we are checking that two things are true:
+When we use the || operator, we are checking that either thing are true:
+
+NOTE: When using the && operator, both conditions must evaluate to true for the entire condition to evaluate to true and execute. Otherwise, if either condition is false, the && condition will evaluate to false and the else block will execute.
+When using the || operator, only one of the conditions must evaluate to true for the overall statement to evaluate to true.
+The ! not operator reverses, or negates, the value of a boolean:
+
+
+```
