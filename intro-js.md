@@ -182,5 +182,5 @@ switch (key) {
 Tenary Operator
 statement ? "do something" : "do another thing";
 
-alimi.length === 5 ? "hello alimi" : "no greeting";
-``
+alimi.length === 5 ? "hello alimi" : "no greetings";
+```
