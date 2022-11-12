@@ -73,3 +73,33 @@ if (todo || !observeCharity) {
 } else {
   console.log("I can do both as well");
 }
+
+/** EXAMINATION GRADE */
+// EXAM GRADE
+let examTotalAvailableScore = 100;
+let studentScore = Math.random() * examTotalAvailableScore;
+console.log('studentScore', studentScore);
+let examScore = Math.floor(studentScore);
+console.log('examScore', examScore);
+
+if(examScore <= 100 && examScore >= 75){
+ console.log('You scored grade A')
+}
+else if(examScore <= 74 && examScore >= 65){
+  console.log('You scored grade B')
+}
+else if(examScore <= 64 && examScore >= 55){
+  console.log('You scored grade C')
+}
+else if(examScore <= 54 && examScore >= 45){
+  console.log('You scored grade D')
+}
+else if(examScore <= 44 && examScore >= 35){
+  console.log('You scored grade E')
+}
+else if(examScore <= 34 && examScore >= 25){
+  console.log('You scored grade F')
+}
+else{
+  console.log('You scored 0')
+}
