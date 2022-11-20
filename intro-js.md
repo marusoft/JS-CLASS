@@ -97,7 +97,7 @@ output: I am enjoying my JS classes with Marusoft Technology
 .startWith()
 ```
 
-## Variable
+### Variable
 It is a container of related item.
 
 ```javascript
@@ -122,7 +122,7 @@ let lastName1 = "Alimi";
 let fullName2 = `${firstName1} ${lastName1}`;
 console.log("FNAME2", fullName2)
 ```
-# Comparison Operators
+### Comparison Operators
 ```javascript
 Comparison operators compare the value on the left with the value on the right.
 Less than: <
@@ -132,7 +132,7 @@ Greater than or equal to: >=
 Strict equal to: ===
 Is NOT equal to: !==
 ```
-# Logical Operators
+### Logical Operators
 ```javascript
 the and operator (&&)
 the or operator (||)
@@ -145,11 +145,11 @@ When using the || operator, only one of the conditions must evaluate to true for
 The ! not operator reverses, or negates, the value of a boolean:
 ```
 
-# Conditionals (Decision making in JavaScript)
+### Conditionals (Decision making in JavaScript)
 ```javascript
 if, else if, and else statements.
 Example: two decision
-if(statement){
+if(statement) {
   console.log("make something  happen");
 } 
 else {
@@ -163,13 +163,15 @@ if(statement){
 else if(!statement) {
    console.log("make another thing happen");
 }
-else{
+else  {
  console.log("make whatever you like")
 }
 Note: statement is the condition to make our decision
 
 switch Statement
+
 A switch statement provides an alternative syntax that is easier to read and write. A switch statement looks like this:
+
 switch (key) {
   case value:
     
@@ -180,7 +182,72 @@ switch (key) {
 }
 
 Tenary Operator
-statement ? "do something" : "do another thing";
+condition ? "do something" : "do another thing";
 
 alimi.length === 5 ? "hello alimi" : "no greetings";
+```
+
+### Function
+A function is a reusable block of code that combines some programming logic to  perform a specific task.
+```javascript
+Function Declaration
+function functionName() {
+  // function body
+}
+```
+```javascript
+Calling a function or Invoking a function: This is done by writing the function name followed by parentheses.
+
+function functionName(param) {
+  // function body
+}
+functionName();
+```
+```javascript
+Parameter is a named variable expecting a value from the Argument.
+The return keyword is used to return the result of the body of a function
+
+function functionName(parameter) {
+  return some statements
+}
+functionName(arguments)
+
+example to calculate the area of a circle
+
+function areaOfCircle(radius) {
+  return Math.PI * radius * radius;
+}
+areaOfCircle(3);
+```
+```javascript
+Function Expression
+const myFunctionName = function() {
+  // function body
+}
+myFunctionName();
+```
+```javascript
+Arrow Function (es6 way of declaring function)
+
+const myFunctionName = () => {
+  // function body
+}
+myFunctionName();
+```
+```javascript
+Printing out the result of a function
+
+const myFunctionName = () => {
+ return some logic
+}
+console.log(myFunctionName());
+```
+```javascript
+Scope in JavaScript
+Scope is a concept in programming that some variables are available or unavailable from other parts of a program.
+
+Global Scope and Local Scope
+A variable available in every part of the program is called a Global Scope variable
+whereas, a variable that is available within a block {} is known as Local Scope Variable.
+
 ```
