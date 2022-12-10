@@ -242,8 +242,8 @@ const myFunctionName = () => {
 }
 console.log(myFunctionName());
 ```
+### Scope in JavaScript
 ```javascript
-Scope in JavaScript
 Scope is a concept in programming that some variables are available or unavailable from other parts of a program.
 
 Global Scope and Local Scope
@@ -251,3 +251,4 @@ A variable available in every part of the program is called a Global Scope varia
 whereas, a variable that is available within a block {} is known as Local Scope Variable.
 
 ```
+

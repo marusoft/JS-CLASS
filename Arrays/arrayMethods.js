@@ -3,6 +3,10 @@
 // .splice()
 // .find()
 // .pop()
+// .split()
+// .includes()
+// .slice()
+// .join()
 
 const myFriend = [
   "alimi",
@@ -89,7 +93,14 @@ const myFriendOne = [
   "khalid",
   "basheerah",
 ];
-let includeElement = myFriendOne.includes('hamzah', 0)
-let includeElementNotFound = myFriendOne.includes('kemi', 0);
-console.log(includeElement)
+let includeElement = myFriendOne.includes("hamzah", 0);
+let includeElementNotFound = myFriendOne.includes("kemi", 0);
+console.log(includeElement);
 console.log(includeElementNotFound);
+
+/**
+ * .split()
+ */
+const teamNigeria = "Team Nigeria";
+let convertToArray = teamNigeria.split(" ");
+console.log(convertToArray.join())

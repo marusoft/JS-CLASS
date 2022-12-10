@@ -30,3 +30,5 @@ var myProfile = {
   address: "3, adeyemo close",
 };
 
+console.log("Alimi Kehinde Morufuden")
+console.log("Alimi Love learning " + "mordern JS")
