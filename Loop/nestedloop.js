@@ -24,11 +24,11 @@
 //     console.log(`${num1[i]} * ${numbers[j]} = ${answer}`);
 //   }
 // }
-const num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const firstnumbers = [4];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-for (let i = 0; i < num1.length; i++) {
+for (let i = 0; i < firstnumbers.length; i++) {
   for (let j = 0; j < numbers.length; j++) {
-    const answer = num1[i] * numbers[j];
-    console.log(`${num1[i]} * ${numbers[j]} = ${answer}`);
+    const answer = firstnumbers[i] * numbers[j];
+    console.log(`${firstnumbers[i]} * ${numbers[j]} = ${answer}`);
   }
 }
