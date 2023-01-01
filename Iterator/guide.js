@@ -13,6 +13,7 @@
 const myFriends = ["alimi", "muhammed", "musa"];
 myFriends.forEach((friend) => console.log(`${friend} is one of my friend`));
 
+
 /**
  * .map()
  * executes the same code on every element in an array and returns a new 
@@ -59,10 +60,55 @@ const profile = [
   },
   {
     id: 3,
-    name: 'marusoft',
+    name: 'musa',
     age: 20,
-    school: 'lautech',
+    school: 'OOU',
     country: 'nig' 
   }
 ];
 // todo filter by age > 15 name === jafar
+
+const record = [
+  {
+    id: 1,
+    fullname: 'owolabi kehinde',
+    department: 'Phlebotomy',
+    age: 35,
+    address: '10, Adeyete str'
+  },
+  {
+    id: 2,
+    fullname: 'Taiye Taiwo',
+    department: 'Chemistry',
+    age: 25,
+    address: '10, Adeyemi str'
+  },
+  {
+    id: 3,
+    fullname: 'Nuno Gomez',
+    department: 'Anatomy',
+    age: 55,
+    address: '19, Brown Avenue'
+  },
+  {
+    id: 4,
+    fullname: 'Nnamdi Kelvin',
+    department: 'Physiology',
+    age: 55,
+    address: '2, Kelvin Str'
+  },
+  {
+    id: 5,
+    fullname: 'Nnamdi Kelvin',
+    department: 'Phlebotomy',
+    age: 60,
+    address: '2, Kelvin Str'
+  },
+];
+// TODO filter record by department === Phlebotomy and age > 25
+
+
+const cities = ['Lagos', 'Kaduna', 'Nassarawa', 'Anambra', 'Sokoto', 'Maiduguri', 'Cross-River', 'Plateau', 'Zamfara'];
+
+// TODO 1. iterate through the array to get "I have visited the various city"
+//  TODO 2. iterate and filter the largest city greater than 6 ( > 6)
