@@ -5,7 +5,7 @@
 /**
  * Switch statement example 1
  */
-let isGoing = "Yes, Muhammad must go to America Corner study JS";
+let isGoing = "Yes, Muhammad must go to America Corner to study JS";
 switch (isGoing) {
   case "Absent this week":
     console.log("Muhammed is not a serious boy");
@@ -16,7 +16,7 @@ switch (isGoing) {
   case "Muhammed does not have internet":
     console.log("Muhammed is not planining properly");
     break;
-  case "Yes, Muhammad must go to America Corner study JS":
+  case "Yes, Muhammad must go to America Corner to study JS":
     console.log("Muhammed is doubting Linux OS");
     break;
   default:
@@ -130,3 +130,4 @@ switch (currentMonth) {
   default:
     break;
 }
+
