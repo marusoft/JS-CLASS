@@ -102,4 +102,6 @@ let spaceship = {
 
 for (const crewMember in spaceship.crew) {
   console.log(spaceship.crew[crewMember].name);
+  console.log(spaceship.crew["chief officer"].agree());
+  console.log(spaceship.crew.medic.announce());
 }
