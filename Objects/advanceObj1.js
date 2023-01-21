@@ -73,20 +73,33 @@ const robotDeatails = {
 // TODO get the functionality by using destructring method to printout "Beep Beep"
 
 const { functionality } = robotDeatails;
-console.log(functionality);
 functionality.beep();
+console.log(functionality);
 
 //  Example 7
 // Builtin method in Object
-// Object.keys()
-// Object.entries()
-// Object.assign()
+// Object.keys() Returns the names of the enumerable string properties and methods of an object.
+// Object.entries() Returns an array of key/values of the enumerable properties of an object
+// Object.assign(target, source) Copy the values of all of the enumerable own properties from one or more source objects to a target object. Returns the target object.
+// Object.freeze() Prevents the modification of existing property attributes and values, and prevents the addition of new properties. @param a — Object on which to lock the attributes.
 
 const myClothColors = {
   cloth1: "red and white",
   cloth2: "White and black",
   cloth3: "Plain Blue",
 };
+const myNeed = {
+  water: true,
+  food: "Yes",
+  soap: "Dove",
+  drink: "Yoghourt"
+}
 
 let clothKeys = Object.keys(myClothColors);
-console.log(clothKeys)
+let objEntries = Object.entries(myClothColors);
+let objAssign = Object.assign(myNeed, myClothColors);
+let freezeObj = Object.freeze(myClothColors);
+console.log(clothKeys);
+console.log(objEntries);
+console.log(objAssign);
+console.log(freezeObj);
