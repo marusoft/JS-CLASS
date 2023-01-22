@@ -1,6 +1,7 @@
 /** Example 1
  * Object.keys() Returns the names of the enumerable string properties and methods of an object.
- * @param o — Object that contains the properties and methods. This can be an
+ * @param o — Object that contains the properties and methods. 
+ * This can be an object that you created or an existing Document Object Model (DOM) object.
  */
 
 const myDepartment = {
@@ -56,3 +57,6 @@ const freezeAccount = Object.freeze(myAccount);
 let changeName = myAccount.accountName = "Alice Alice"
 console.log(freezeAccount);
 // console.log(changeName)
+
+
+// TODO: create js Object of your choice and use all the methods on them
