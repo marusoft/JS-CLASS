@@ -7,9 +7,9 @@
  * capitalize
  */
 
-class Bootcamp {
+// class Bootcamp {
 
-}
+// }
 
 /**
  * Constructor
@@ -17,21 +17,21 @@ class Bootcamp {
  * it creates a new instance of a class
  */
 
-class Bootcamp {
-  constructor(courses, duration) {
-    this.courses = courses;
-    this.duration = duration;
-  }
-}
+// class Bootcamp {
+//   constructor(courses, duration) {
+//     this.courses = courses;
+//     this.duration = duration;
+//   }
+// }
 
-class Signup {
-  constructor(name, email, password, gender){
-   this.name = name;
-   this.email = email;
-   this.password = password;
-   this.gender = gender;
-  }
-}
+// class Signup {
+//   constructor(name, email, password, gender){
+//    this.name = name;
+//    this.email = email;
+//    this.password = password;
+//    this.gender = gender;
+//   }
+// }
 
 /**
  * An Instance of a Class
@@ -44,13 +44,13 @@ class Signup {
  */
 
 // bootcamp class
-class Bootcamp {
-  constructor(courses, duration) {
-    this.courses = courses;
-    this.duration = duration;
-  }
-}
-const bootcampInfo = new Bootcamp("Frontend Web dev", "6 month");
+// class Bootcamp {
+//   constructor(courses, duration) {
+//     this.courses = courses;
+//     this.duration = duration;
+//   }
+// }
+// const bootcampInfo = new Bootcamp("Frontend Web dev", "6 month");
 
 // signup class
 class Signup {
@@ -74,27 +74,27 @@ const signupValue = new Signup("Alimi","a@gmail.com", 122222, "male")
  */
 
 // bootcamp example
-class Bootcamp {
-  constructor(courses, duration) {
-    this._courses = courses;
-    this._duration = duration;
-    this._numberOfStudent = 6;
-  }
-  get courses() {
-    return this._courses;
-  }
-  get duration() {
-    return this._duration;
-  }
-  incrementNumberOfStudent() {
-    this._numberOfStudent++;
-  }
-}
+// class Bootcamp {
+//   constructor(courses, duration) {
+//     this._courses = courses;
+//     this._duration = duration;
+//     this._numberOfStudent = 6;
+//   }
+//   get courses() {
+//     return this._courses;
+//   }
+//   get duration() {
+//     return this._duration;
+//   }
+//   incrementNumberOfStudent() {
+//     this._numberOfStudent++;
+//   }
+// }
 // login example
 class Login{
   constructor(email, password, user, loggedUser){
-    this.email = email;
-    this.password = password;
+    this._email = email;
+    this._password = password;
     this._user = user;
     this._loggedUser = loggedUser;
   }
@@ -117,28 +117,55 @@ class Login{
  * illustration
  */
 
- class Bootcamp {
-  constructor(courses, duration) {
-    this._courses = courses;
-    this._duration = duration;
-    this._numberOfStudent = 6;
+//  class Bootcamp {
+//   constructor(courses, duration) {
+//     this._courses = courses;
+//     this._duration = duration;
+//     this._numberOfStudent = 6;
+//   }
+//   get courses() {
+//     return this._courses;
+//   }
+//   get duration() {
+//     return this._duration;
+//   }
+//   get studentTotal(){
+//     return this._numberOfStudent;
+//   }
+//   incrementNumberOfStudent() {
+//     return this._numberOfStudent++;
+//   }
+// }
+// const cohortOne = new Bootcamp ("FE", "12 month");
+// console.log(cohortOne);
+// console.log(cohortOne.courses);
+// console.log(cohortOne.duration);
+// cohortOne.incrementNumberOfStudent();
+// console.log(cohortOne.studentTotal);
+
+
+
+class Arithmetics {
+  constructor(firstValue, secondValue){
+    this.firstValue = firstValue
+    this.secondValue = secondValue;
   }
-  get courses() {
-    return this._courses;
+  get addition(){
+    return this.firstValue + this.secondValue;
   }
-  get duration() {
-    return this._duration;
+  get substraction(){
+    return firstValue - secondValue;
   }
-  get studentTotal(){
-    return this._numberOfStudent;
+  get mulplication(){
+    return firstValue * secondValue;
   }
-  incrementNumberOfStudent() {
-    return this._numberOfStudent++;
+  get division(){
+    return firstValue / secondValue;
   }
+
 }
-const cohortOne = new Bootcamp ("FE", "12 month");
-console.log(cohortOne);
-console.log(cohortOne.courses);
-console.log(cohortOne.duration);
-cohortOne.incrementNumberOfStudent();
-console.log(cohortOne.studentTotal)
+const additionValue = new Arithmetics(3, 6);
+console.log(additionValue)
+const add = additionValue.addition
+console.log(add)
+const substractionValue = new Arithmetics(10, 7)
