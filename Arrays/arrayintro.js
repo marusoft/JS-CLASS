@@ -1,13 +1,20 @@
 /**
+ * Arrays is a collection of items
+ * Arrays can created using square bracket
+ */
+const myGroceries = [];
+
+/**
  * creating an array
  */
-let favoriteFood = ["rice", "dodo", "bread", "bean","yam","noodles"];
+let favoriteFood = ["rice", "dodo", "bread", "bean", "yam", "noodles"];
 // accessing items in an array
 let getItem = favoriteFood[1];
 console.log(getItem);
-let getYam = favoriteFood[4]
+let getYam = favoriteFood[4];
 console.log(getYam);
-const mixedData = [1, "hello", true, "6666", 1.4444 ];
+
+const mixedData = [1, "hello", true, "6666", 1.4444];
 
 /**
  * length of items in array
@@ -21,6 +28,6 @@ console.log(getItemCount);
  */
 favoriteFood[0] = "Eba";
 favoriteFood[2] = "Vegetable";
-favoriteFood[3] = "Porridge"
+favoriteFood[3] = "Porridge";
 
-console.log(favoriteFood)
+console.log(favoriteFood);
