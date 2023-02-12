@@ -112,7 +112,7 @@ Determines whether an array includes a certain element, returning true or false 
 
 @param fromIndex — The position in this array at which to begin searching for searchElement.
  */
-const myFriendOne = [
+const myFriendList = [
   "alimi",
   "mubarak",
   "muhammed",
@@ -121,8 +121,8 @@ const myFriendOne = [
   "khalid",
   "basheerah",
 ];
-let includeElement = myFriendOne.includes("hamzah", 0);
-let includeElementNotFound = myFriendOne.includes("kemi", 0);
+let includeElement = myFriendList.includes("hamzah", 0);
+let includeElementNotFound = myFriendList.includes("kemi", 0);
 console.log(includeElement);
 console.log(includeElementNotFound);
 
@@ -131,4 +131,14 @@ console.log(includeElementNotFound);
  */
 const teamNigeria = "Team Nigeria";
 let convertToArray = teamNigeria.split(" ");
+console.log(convertToArray);
+
+/**
+ * Adds all the elements of an array into a string, separated by 
+ * the specified separator string. 
+ * @param separator — A string used to separate one element of the 
+ * array from the next in the resulting string.
+ *  If omitted, the array elements are separated with a comma.
+ */
 console.log(convertToArray.join());
+
