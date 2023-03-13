@@ -272,13 +272,15 @@ Example of Local variable
 
 ```javascript
 
-const evenNumber = () => {
-  
+const welcomeMsg = () => {
+  let firstName = "John";
+  let lastName = "Doe";
+  return `You are welcome Mr ${firstName.toUpperCase()}, ${lastName}`;
 }
 
 
-Which implies all the three variable are accessible in the function myFullName()
-because the variables are decleared globally
+Which implies all the three variable are accessible in the function welcomeMsg()
+because the variables are decleared locally
 ```
 
 
