@@ -55,3 +55,6 @@ or classname and select it for manipulation.
 For example, you can access a button on a webpage and change its text or 
 color when a user clicks on it. Or, you can access an image on a webpage 
 and change it to a different image when a user hovers over it.
+
+*Examples on how to Access and manupulate the DOM can be found in the
+Intermediate-js-and-illustration folder*  
